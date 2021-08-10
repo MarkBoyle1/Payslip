@@ -1,0 +1,15 @@
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/bin/Debug/net5.0/payslip.deps.json
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/bin/Debug/net5.0/payslip.runtimeconfig.json
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/bin/Debug/net5.0/payslip.runtimeconfig.dev.json
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/bin/Debug/net5.0/payslip.dll
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/bin/Debug/net5.0/ref/payslip.dll
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/bin/Debug/net5.0/payslip.pdb
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/obj/Debug/net5.0/payslip.csproj.AssemblyReference.cache
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/obj/Debug/net5.0/payslip.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/obj/Debug/net5.0/payslip.AssemblyInfoInputs.cache
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/obj/Debug/net5.0/payslip.AssemblyInfo.cs
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/obj/Debug/net5.0/payslip.csproj.CoreCompileInputs.cache
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/obj/Debug/net5.0/payslip.dll
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/obj/Debug/net5.0/ref/payslip.dll
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/obj/Debug/net5.0/payslip.pdb
+/Users/Mark.Boyle/Desktop/c#/katas/payslip/obj/Debug/net5.0/payslip.genruntimeconfig.cache
