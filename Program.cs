@@ -13,9 +13,9 @@ namespace payslip
             Console.WriteLine("Please input your surname:");
             string surname = Console.ReadLine();
             Console.WriteLine("Please input your annual salary:");
-            int annualSalary = Int32.Parse(Console.ReadLine());
+            double annualSalary = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Please input your super rate:");
-            int superRate = Int32.Parse(Console.ReadLine());
+            double superRate = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Please input your payment start date:");
             string paymentStartDate = Console.ReadLine();
             Console.WriteLine("Please input your payment end date:");
@@ -51,7 +51,21 @@ namespace payslip
                 incomeTax = (taxBracketSumB + ((annualSalary - taxBracketMinB) * taxBracketRateB)) / 12;
             }
 
+            // Payslip
+            double grossIncome = annualSalary / 12;
+            double netIncome = grossIncome - incomeTax;
+            double super = netIncome * (superRate / 100);
 
+            Console.WriteLine("Your payslip has been generated!");
+
+            Console.WriteLine("Name: " + firstName + " " + surname);
+            Console.WriteLine("Pay Period: " + paymentStartDate + " - " + paymentEndDate);
+            Console.WriteLine("Gross Income: " + Convert.ToInt32(grossIncome));
+            Console.WriteLine("Income Tax: " + Convert.ToInt32(incomeTax));
+            Console.WriteLine("Net Income: " + Convert.ToInt32(netIncome));
+            Console.WriteLine("Super: " + Convert.ToInt32(super));
+
+            Console.WriteLine("Thank you for using MYOB!");
         }
     }
 }
