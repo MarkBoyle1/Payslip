@@ -13,9 +13,9 @@ namespace payslip
             Console.WriteLine("Please input your surname:");
             string surname = Console.ReadLine();
             Console.WriteLine("Please input your annual salary:");
-            double annualSalary = Int32.Parse(Console.ReadLine());
+            double annualSalary = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Please input your super rate:");
-            double superRate = Int32.Parse(Console.ReadLine());
+            double superRate = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Please input your payment start date:");
             string paymentStartDate = Console.ReadLine();
             Console.WriteLine("Please input your payment end date:");
